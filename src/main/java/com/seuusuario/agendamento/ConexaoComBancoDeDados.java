@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexaoComBancoDeDados {
-    private static final String URL = "jdbc:mysql://localhost:3306/Agendamento";
+    private static final String URL = "jdbc:mysql://localhost:3306/sistema_agendamentos?useSSL=false&serverTimezone=UTC";
     private static final String USUARIO = "root";
     private static final String SENHA = "lukas73";
 

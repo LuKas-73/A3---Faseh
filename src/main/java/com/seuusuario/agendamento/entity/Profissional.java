@@ -5,7 +5,7 @@ public class Profissional {
     private String nome;
     private String especialidade;
 
-    public Profissional() {}
+    public Profissional(String nome, String especialidade) {}
 
     public Profissional(int id, String nome, String especialidade) {
         this.id = id;

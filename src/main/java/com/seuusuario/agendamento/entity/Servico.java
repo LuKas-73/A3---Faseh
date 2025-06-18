@@ -13,6 +13,9 @@ public class Servico {
         this.preco = preco;
     }
 
+    public Servico(String nome, double preco) {
+    }
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 

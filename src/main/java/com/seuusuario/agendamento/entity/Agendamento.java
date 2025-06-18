@@ -19,6 +19,10 @@ public class Agendamento {
         this.dataHora = dataHora;
     }
 
+    public Agendamento(int id, int id1, int id2, LocalDateTime now) {
+
+    }
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
